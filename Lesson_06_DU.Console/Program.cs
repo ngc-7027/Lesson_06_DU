@@ -11,7 +11,7 @@
             var counter = new Counter();
 
             // Create a generic class Comparator<T> that implements IComparator<T> interface.
-            var intComparator = new Comparator<int>(); // Create
+            var intComparator = new Comparator<int>();
             var floatComparator = new Comparator<float>();
             var stringComparator = new Comparator<string>();
         }
