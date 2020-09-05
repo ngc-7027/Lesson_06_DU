@@ -6,7 +6,7 @@ namespace Lesson_06_DU.App
     {
         public static IEnumerable<string> SplitToWords(this string str)
         {
-            // Your code goes here.
+            return str.Split(new char[] { ' ', ',', '.' });
         }
     }
 }
